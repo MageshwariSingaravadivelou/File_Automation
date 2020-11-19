@@ -124,7 +124,7 @@ def submit():
     data4 = pd.concat([df8, df7])
     data4.drop_duplicates(subset ="Date", inplace = True) 
     data4.to_csv(filepath8, index=False, columns=["Date","Link Clicks (e4) (event4)","Unique Visitors", "Visits"])
-    data5 = pd.concat([df10, df10])
+    data5 = pd.concat([df10, df9])
     data5.drop_duplicates(subset ="Date", inplace = True) 
     data5.to_csv(filepath10, index=False, columns=["Date","Link Clicks (e4) (event4)","Unique Visitors", "Visits"])
     data6 = pd.concat([df12, df11])
