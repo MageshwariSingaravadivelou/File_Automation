@@ -159,7 +159,7 @@ if __name__=="__main__":
     
     root = Tk()
     root.resizable(0,0) # to disable the maximize button
-    root.title("Seeker Dashboard")
+    root.title("File content transformation tool")
     root.configure(pady=60)
 
     select_file = Label(root, text="Input File 1: ",width=12)
